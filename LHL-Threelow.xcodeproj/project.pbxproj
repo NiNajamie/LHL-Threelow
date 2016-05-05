@@ -1,0 +1,264 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9601B0521CDA63AE00D948C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9601B0511CDA63AE00D948C9 /* main.m */; };
+		9601B05A1CDA64C000D948C9 /* Dice.m in Sources */ = {isa = PBXBuildFile; fileRef = 9601B0591CDA64C000D948C9 /* Dice.m */; };
+		9601B05D1CDA8FDD00D948C9 /* InputCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = 9601B05C1CDA8FDD00D948C9 /* InputCollector.m */; };
+		9601B0601CDAC0C300D948C9 /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9601B05F1CDAC0C300D948C9 /* GameController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9601B04C1CDA63AE00D948C9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9601B04E1CDA63AE00D948C9 /* LHL-Threelow */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LHL-Threelow"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9601B0511CDA63AE00D948C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9601B0581CDA64C000D948C9 /* Dice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dice.h; sourceTree = "<group>"; };
+		9601B0591CDA64C000D948C9 /* Dice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dice.m; sourceTree = "<group>"; };
+		9601B05B1CDA8FDD00D948C9 /* InputCollector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputCollector.h; sourceTree = "<group>"; };
+		9601B05C1CDA8FDD00D948C9 /* InputCollector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputCollector.m; sourceTree = "<group>"; };
+		9601B05E1CDAC0C300D948C9 /* GameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameController.h; sourceTree = "<group>"; };
+		9601B05F1CDAC0C300D948C9 /* GameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9601B04B1CDA63AE00D948C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9601B0451CDA63AE00D948C9 = {
+			isa = PBXGroup;
+			children = (
+				9601B0501CDA63AE00D948C9 /* LHL-Threelow */,
+				9601B04F1CDA63AE00D948C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9601B04F1CDA63AE00D948C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9601B04E1CDA63AE00D948C9 /* LHL-Threelow */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9601B0501CDA63AE00D948C9 /* LHL-Threelow */ = {
+			isa = PBXGroup;
+			children = (
+				9601B0511CDA63AE00D948C9 /* main.m */,
+				9601B05E1CDAC0C300D948C9 /* GameController.h */,
+				9601B05F1CDAC0C300D948C9 /* GameController.m */,
+				9601B05B1CDA8FDD00D948C9 /* InputCollector.h */,
+				9601B05C1CDA8FDD00D948C9 /* InputCollector.m */,
+				9601B0581CDA64C000D948C9 /* Dice.h */,
+				9601B0591CDA64C000D948C9 /* Dice.m */,
+			);
+			path = "LHL-Threelow";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9601B04D1CDA63AE00D948C9 /* LHL-Threelow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9601B0551CDA63AE00D948C9 /* Build configuration list for PBXNativeTarget "LHL-Threelow" */;
+			buildPhases = (
+				9601B04A1CDA63AE00D948C9 /* Sources */,
+				9601B04B1CDA63AE00D948C9 /* Frameworks */,
+				9601B04C1CDA63AE00D948C9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LHL-Threelow";
+			productName = "LHL-Threelow";
+			productReference = 9601B04E1CDA63AE00D948C9 /* LHL-Threelow */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9601B0461CDA63AE00D948C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Asuka Nakagawa";
+				TargetAttributes = {
+					9601B04D1CDA63AE00D948C9 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 9601B0491CDA63AE00D948C9 /* Build configuration list for PBXProject "LHL-Threelow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9601B0451CDA63AE00D948C9;
+			productRefGroup = 9601B04F1CDA63AE00D948C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9601B04D1CDA63AE00D948C9 /* LHL-Threelow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9601B04A1CDA63AE00D948C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9601B05D1CDA8FDD00D948C9 /* InputCollector.m in Sources */,
+				9601B0601CDAC0C300D948C9 /* GameController.m in Sources */,
+				9601B05A1CDA64C000D948C9 /* Dice.m in Sources */,
+				9601B0521CDA63AE00D948C9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9601B0531CDA63AE00D948C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9601B0541CDA63AE00D948C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9601B0561CDA63AE00D948C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9601B0571CDA63AE00D948C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9601B0491CDA63AE00D948C9 /* Build configuration list for PBXProject "LHL-Threelow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9601B0531CDA63AE00D948C9 /* Debug */,
+				9601B0541CDA63AE00D948C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9601B0551CDA63AE00D948C9 /* Build configuration list for PBXNativeTarget "LHL-Threelow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9601B0561CDA63AE00D948C9 /* Debug */,
+				9601B0571CDA63AE00D948C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9601B0461CDA63AE00D948C9 /* Project object */;
+}
