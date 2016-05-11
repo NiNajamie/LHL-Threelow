@@ -10,10 +10,13 @@
 
 @interface Dice : NSObject
 
-
+// Have a property to store its current value
 @property(nonatomic) int currentValue;
 
+// Method to randomize that value.
 -(void)getRandomNumber;
+
+
 -(NSString *)inputForPrompt:(NSString *)promptString;
 
 

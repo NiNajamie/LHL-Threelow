@@ -30,12 +30,15 @@
 // use your holdDie: method to toggle dice between the "held" and "un-held" state in your data model.
 - (void)holdDie:(int)dieNumber {
     
+    // Bracketing [] the held values when you print them out.
+    // Access to property: heldDice in Dice-class
     Dice * aDie = [self.dice objectAtIndex:dieNumber];
     if ([_heldDice containsObject:aDie]) {
         [self.heldDice removeObject:aDie];
         NSLog(@"Un-hold Dice number is: %d", aDie.currentValue);
 
     } else {
+        // Access to print-out the number with [] that means 'held'
         [self.heldDice addObject:aDie];
         NSLog(@"Hold Dice number is: [%d]", aDie.currentValue);
 
@@ -43,8 +46,7 @@
     
 }
 
-
-// Consider bracketing [] the held values when you print them out.
+// method to print allDice
 - (void)printAllDice {
     for (Dice *myDice in _dice) {
         if ([_heldDice containsObject:myDice]) {

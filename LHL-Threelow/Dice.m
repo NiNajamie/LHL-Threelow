@@ -17,7 +17,7 @@
     }
     return self;
 }
-
+// method to get use inputCollector
 -(NSString *)inputForPrompt:(NSString *)promptString {
     char inputChars[50];
     NSLog(@"%@", promptString);

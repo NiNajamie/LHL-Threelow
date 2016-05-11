@@ -10,12 +10,17 @@
 
 @interface GameController : NSObject
 
+@property(strong, nonatomic)NSMutableArray* dataModel;
+@property(strong, nonatomic)NSMutableArray* controller;
+
 @property(strong, nonatomic)NSMutableSet* heldDice;
 @property(strong, nonatomic)NSMutableArray* dice;
 
-// Add a method to your controller called holdDie:, that "holds" the given dice (by number).
+// method to your controller called holdDie:, that "holds" the given dice (by number).
 - (void)holdDie:(int)dieNumber;
+
 - (void)printAllDice;
+
 - (void)resetDice;
 
 // Add method to your controller that calculates and returns the current score by adding up all the held dice values.
